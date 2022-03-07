@@ -32,7 +32,12 @@ Cypress coding challenge for LoanWell
 **Hours Worked on this Goal -**
 
 ----------------------------------------------------------
+### 1. INTRODUCTION
 
-Website: https://www.wyndhamhotels.com/
-Site Area: Login module
+### 2. 
+
+
+
+
+
 
