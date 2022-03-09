@@ -33,7 +33,7 @@ Cypress coding challenge for LoanWell
 
 ----------------------------------------------------------
 ### 1. OBJECTIVE
-The following test cases will check for functionality regressions in the Guest Information form on the IHG Payment page. The contents of the form and editable field options should vary based on the rate selected and the type of customer (Unathenticated Guest, signed in member, signed out member).
+The following test cases will check for functionality regressions in the Guest Information form on the IHG Payment page. The contents of the form and editable field options should vary based on the type of hotel rate selected and the type of customer (Unathenticated Guest, signed in member, signed out member).
 
 ### 2. SCOPE
 
@@ -42,12 +42,16 @@ The following test cases will check for functionality regressions in the Guest I
 
 | ID | Test Scenario | Test Case | Pre-Condition | Test Steps | Test Data | Expected Result | Actual Result | Status P/F |
 |----|---------------|-----------|---------------|------------|-----------|-----------------|---------------|------------|
-| 001 | Unauthenticated Guest - Non-Member Rate|.    |.       |.      |.       |.      |.      |.     |
-| 002 | Unauthenticated Guest - Member Rate |.    |.       |.      |.       |.      |.      |.     |
-| 001 | Unauthenticated Guest - Non-Member |.    |.       |.      |.       |.      |.      |.     |
-| 001 | Unauthenticated Guest - Non-Member |.    |.       |.      |.       |.      |.      |.     |
-
-
+| 001 | Messaging for Unauthenticated Guest - Non-Member Rate|.    |.       |.      |.       |.      |.      |.     |
+| 002 | Messaging for Unauthenticated Guest - Member Rate |.    |.       |.      |.       |.      |.      |.     |
+| 003 | Messaging for Signed in member - Non-Member Rate |.    |.       |.      |.       |.      |.      |.     |
+| 004 | Messaging for Signed in member - Member Rate |.    |.       |.      |.       |.      |.      |.     |
+| 005 | Messaging for Signed out member - Non-Member Rate |.    |.       |.      |.       |.      |.      |.     |
+| 006 | Messaging for Signed out member - Member Rate |.    |.       |.      |.       |.      |.      |.     |
+| 007 | Messaging change for Unathenticated to Signed in - Member Rate |.    |.       |.      |.       |.      |.      |.     |
+| 008 | Messaging change for Signed in to Signed out - Member Rate |.    |.       |.      |.       |.      |.      |.     |
+| 009 | Messaging change for Signed out to Signed in - Member Rate |.    |.       |.      |.       |.      |.      |.     |
+| 010 | Messaging change for Signed out to Unauthenticated - Member Rate |.    |.       |.      |.       |.      |.      |.     |
 
 
 
