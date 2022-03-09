@@ -32,9 +32,21 @@ Cypress coding challenge for LoanWell
 **Hours Worked on this Goal -**
 
 ----------------------------------------------------------
-### 1. INTRODUCTION
+### 1. OBJECTIVE
+The following test cases will check for functionality regressions in the Guest Information form on the IHG Payment page. The contents of the form and editable field options should vary based on the rate selected and the type of customer (Unathenticated Guest, signed in member, signed out member).
 
-### 2. 
+### 2. SCOPE
+
+
+### 3. REGRESSION TESTS
+
+| ID | Test Scenario | Test Case | Pre-Condition | Test Steps | Test Data | Expected Result | Actual Result | Status P/F |
+|----|---------------|-----------|---------------|------------|-----------|-----------------|---------------|------------|
+| 001 | Unauthenticated Guest - Non-Member Rate|.    |.       |.      |.       |.      |.      |.     |
+| 002 | Unauthenticated Guest - Member Rate |.    |.       |.      |.       |.      |.      |.     |
+| 001 | Unauthenticated Guest - Non-Member |.    |.       |.      |.       |.      |.      |.     |
+| 001 | Unauthenticated Guest - Non-Member |.    |.       |.      |.       |.      |.      |.     |
+
 
 
 
