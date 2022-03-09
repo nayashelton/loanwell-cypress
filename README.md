@@ -42,30 +42,30 @@ The following test cases will check for functionality regressions in the Guest I
 
 | ID | Test Scenario | Test Case | Pre-Condition | Test Steps | Test Data | Expected Result | Actual Result | Status P/F |
 |----|---------------|-----------|---------------|------------|-----------|-----------------|---------------|------------|
-| 001 | Messaging for unauthenticated guest - non-member rate|.    |.       |.      |.       |.      |.      |.     |
-| 002 | Messaging for unauthenticated guest - member rate |.    |.       |.      |.       |.      |.      |.     |
-| 003 | Messaging for signed in member - non-member rate |.    |.       |.      |.       |.      |.      |.     |
-| 004 | Messaging for signed in member - member rate |.    |.       |.      |.       |.      |.      |.     |
-| 005 | Messaging for signed out member - non-member rate |.    |.       |.      |.       |.      |.      |.     |
-| 006 | Messaging for signed out member - member rate |.    |.       |.      |.       |.      |.      |.     |
-| 007 | Messaging change for unathenticated to signed in - member rate |.    |.       |.      |.       |.      |.      |.     |
-| 008 | Messaging change for signed in to signed out - member rate |.    |.       |.      |.       |.      |.      |.     |
-| 009 | Messaging change for signed out to signed in - member rate |.    |.       |.      |.       |.      |.      |.     |
-| 010 | Messaging change for signed out to unauthenticated - member rate |.    |.       |.      |.       |.      |.      |.     |
-| 011 | Form error validation - empty fields |.    |.       |.      |.       |.      |.      |.     |
-| 012 | Error messaging - First Name |.    |.       |.      |.       |.      |.      |.     |
-| 013 | Error messaging - Last Name |.    |.       |.      |.       |.      |.      |.     |
-| 014 | Error messaging - Email Address |.    |.       |.      |.       |.      |.      |.     |
-| 015 | Error messaging - Country/Region |.    |.       |.      |.       |.      |.      |.     |
-| 016 | Error messaging - Address |.    |.       |.      |.       |.      |.      |.     |
-| 017 | Error messaging - City/Town |.    |.       |.      |.       |.      |.      |.     |
-| 018 | Error messaging - Country/Region |.    |.       |.      |.       |.      |.      |.     |
-| 019 | Form error validation - Postal Code |.    |.       |.      |.       |.      |.      |.     |
-| 020 | Form error validation - Country/Region Code |.    |.       |.      |.       |.      |.      |.     |
-| 021 | Form error validation - Phone Number |.    |.       |.      |.       |.      |.      |.     |
-| 022 | Form error validation - Phone Number - invalid input |.    |.       |.      |.       |.      |.      |.     |
-| 023 | Form prefill - all information prefilled |.    |.       |.      |.       |.      |.      |.     |
-| 024 | Form prefill - partial prefill |.    |.       |.      |.       |.      |.      |.     |
+| 001 | Initial sign in messaging | Unauthenticated guest - non-member rate   |.       |.      |.       |.      |.      |.     |
+| 002 | Initial sign in messaging | Unauthenticated guest - member rate   |.       |.      |.       |.      |.      |.     |
+| 003 | Initial sign in messaging | Signed in member - non-member rate    |.       |.      |.       |.      |.      |.     |
+| 004 | Initial sign in messaging | Signed in member - member rate     |.       |.      |.       |.      |.      |.     |
+| 005 | Initial sign in messaging  | Signed out member - non-member rate    |.       |.      |.       |.      |.      |.     |
+| 006 | Initial sign in messaging | Signed out member - member rate    |.       |.      |.       |.      |.      |.     |
+| 007 | Sign in messaging after state change | Unathenticated to signed in - member rate   |.       |.      |.       |.      |.      |.     |
+| 008 | Sign in messaging after state change | Signed in to signed out - member rate    |.       |.      |.       |.      |.      |.     |
+| 009 | Sign in messaging after state change | Signed out to signed in - member rate    |.       |.      |.       |.      |.      |.     |
+| 010 | Sign in messaging after state change | Signed out to unauthenticated - member rate    |.       |.      |.       |.      |.      |.     |
+| 011 | Form error validation | Empty fields    |.       |.      |.       |.      |.      |.     |
+| 012 | Error messaging | First Name    |.       |.      |.       |.      |.      |.     |
+| 013 | Error messaging | Last Name     |.       |.      |.       |.      |.      |.     |
+| 014 | Error messaging  | Email Address    |.       |.      |.       |.      |.      |.     |
+| 015 | Error messaging | Country/Region    |.       |.      |.       |.      |.      |.     |
+| 016 | Error messaging | Address    |.       |.      |.       |.      |.      |.     |
+| 017 | Error messaging | City/Town    |.       |.      |.       |.      |.      |.     |
+| 018 | Error messaging | Country/Region   |.       |.      |.       |.      |.      |.     |
+| 019 | Form error validation | Postal Code    |.       |.      |.       |.      |.      |.     |
+| 020 | Form error validation | Country/Region Code    |.       |.      |.       |.      |.      |.     |
+| 021 | Form error validation | Phone Number    |.       |.      |.       |.      |.      |.     |
+| 022 | Form error validation | Phone Number - invalid input    |.       |.      |.       |.      |.      |.     |
+| 023 | Form prefill | All information prefilled    |.       |.      |.       |.      |.      |.     |
+| 024 | Form prefill  | Partial prefill    |.       |.      |.       |.      |.      |.     |
 
 
 
