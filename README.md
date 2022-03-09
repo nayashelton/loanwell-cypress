@@ -42,17 +42,30 @@ The following test cases will check for functionality regressions in the Guest I
 
 | ID | Test Scenario | Test Case | Pre-Condition | Test Steps | Test Data | Expected Result | Actual Result | Status P/F |
 |----|---------------|-----------|---------------|------------|-----------|-----------------|---------------|------------|
-| 001 | Messaging for Unauthenticated Guest - Non-Member Rate|.    |.       |.      |.       |.      |.      |.     |
-| 002 | Messaging for Unauthenticated Guest - Member Rate |.    |.       |.      |.       |.      |.      |.     |
-| 003 | Messaging for Signed in member - Non-Member Rate |.    |.       |.      |.       |.      |.      |.     |
-| 004 | Messaging for Signed in member - Member Rate |.    |.       |.      |.       |.      |.      |.     |
-| 005 | Messaging for Signed out member - Non-Member Rate |.    |.       |.      |.       |.      |.      |.     |
-| 006 | Messaging for Signed out member - Member Rate |.    |.       |.      |.       |.      |.      |.     |
-| 007 | Messaging change for Unathenticated to Signed in - Member Rate |.    |.       |.      |.       |.      |.      |.     |
-| 008 | Messaging change for Signed in to Signed out - Member Rate |.    |.       |.      |.       |.      |.      |.     |
-| 009 | Messaging change for Signed out to Signed in - Member Rate |.    |.       |.      |.       |.      |.      |.     |
-| 010 | Messaging change for Signed out to Unauthenticated - Member Rate |.    |.       |.      |.       |.      |.      |.     |
-
+| 001 | Messaging for unauthenticated guest - non-member rate|.    |.       |.      |.       |.      |.      |.     |
+| 002 | Messaging for unauthenticated guest - member rate |.    |.       |.      |.       |.      |.      |.     |
+| 003 | Messaging for signed in member - non-member rate |.    |.       |.      |.       |.      |.      |.     |
+| 004 | Messaging for signed in member - member rate |.    |.       |.      |.       |.      |.      |.     |
+| 005 | Messaging for signed out member - non-member rate |.    |.       |.      |.       |.      |.      |.     |
+| 006 | Messaging for signed out member - member rate |.    |.       |.      |.       |.      |.      |.     |
+| 007 | Messaging change for unathenticated to signed in - member rate |.    |.       |.      |.       |.      |.      |.     |
+| 008 | Messaging change for signed in to signed out - member rate |.    |.       |.      |.       |.      |.      |.     |
+| 009 | Messaging change for signed out to signed in - member rate |.    |.       |.      |.       |.      |.      |.     |
+| 010 | Messaging change for signed out to unauthenticated - member rate |.    |.       |.      |.       |.      |.      |.     |
+| 011 | Form error validation - empty fields |.    |.       |.      |.       |.      |.      |.     |
+| 012 | Error messaging - First Name |.    |.       |.      |.       |.      |.      |.     |
+| 013 | Error messaging - Last Name |.    |.       |.      |.       |.      |.      |.     |
+| 014 | Error messaging - Email Address |.    |.       |.      |.       |.      |.      |.     |
+| 015 | Error messaging - Country/Region |.    |.       |.      |.       |.      |.      |.     |
+| 016 | Error messaging - Address |.    |.       |.      |.       |.      |.      |.     |
+| 017 | Error messaging - City/Town |.    |.       |.      |.       |.      |.      |.     |
+| 018 | Error messaging - Country/Region |.    |.       |.      |.       |.      |.      |.     |
+| 019 | Form error validation - Postal Code |.    |.       |.      |.       |.      |.      |.     |
+| 020 | Form error validation - Country/Region Code |.    |.       |.      |.       |.      |.      |.     |
+| 021 | Form error validation - Phone Number |.    |.       |.      |.       |.      |.      |.     |
+| 022 | Form error validation - Phone Number - invalid input |.    |.       |.      |.       |.      |.      |.     |
+| 023 | Form prefill - all information prefilled |.    |.       |.      |.       |.      |.      |.     |
+| 024 | Form prefill - partial prefill |.    |.       |.      |.       |.      |.      |.     |
 
 
 
