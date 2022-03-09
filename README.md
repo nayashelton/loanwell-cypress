@@ -42,11 +42,11 @@ The following test cases will check for functionality regressions in the Guest I
 
 | ID | Test Scenario | Test Case | Pre-Condition | Test Steps | Test Data | Expected Result | Actual Result | Status P/F |
 |----|---------------|-----------|---------------|------------|-----------|-----------------|---------------|------------|
-| 001 | Initial sign in messaging | Unauthenticated guest - non-member rate   |.       |.      |.       |.      |.      |.     |
-| 002 | Initial sign in messaging | Unauthenticated guest - member rate   |.       |.      |.       |.      |.      |.     |
-| 003 | Initial sign in messaging | Signed in member - non-member rate    |.       |.      |.       |.      |.      |.     |
-| 004 | Initial sign in messaging | Signed in member - member rate     |.       |.      |.       |.      |.      |.     |
-| 005 | Initial sign in messaging  | Signed out member - non-member rate    |.       |.      |.       |.      |.      |.     |
+| 001 | Initial sign in messaging | Unauthenticated guest - non-member rate   | Tester must be logged out before reaching the payment page and must select a non-member rate |.      |.       |.      |.      |.     |
+| 002 | Initial sign in messaging | Unauthenticated guest - member rate   | Tester must be logged out before reaching the payment page and must select a member rate |.      |.       |.      |.      |.     |
+| 003 | Initial sign in messaging | Signed in member - non-member rate    | Tester must be logged in before reaching the payment page and must select a non-member rate |.      |.       |.      |.      |.     |
+| 004 | Initial sign in messaging | Signed in member - member rate     | Tester must be logged in before reaching the payment page and must select a member rate |.      |.       |.      |.      |.     |
+| 005 | Initial sign in messaging  | Signed out member - non-member rate    | Tester must be logged in before reaching the payment page and must select a member rate |.      |.       |.      |.      |.     |
 | 006 | Initial sign in messaging | Signed out member - member rate    |.       |.      |.       |.      |.      |.     |
 | 007 | Sign in messaging after state change | Unathenticated to signed in - member rate   |.       |.      |.       |.      |.      |.     |
 | 008 | Sign in messaging after state change | Signed in to signed out - member rate    |.       |.      |.       |.      |.      |.     |
@@ -66,6 +66,8 @@ The following test cases will check for functionality regressions in the Guest I
 | 022 | Form error validation | Phone Number - invalid input    |.       |.      |.       |.      |.      |.     |
 | 023 | Form prefill | All information prefilled    |.       |.      |.       |.      |.      |.     |
 | 024 | Form prefill  | Partial prefill    |.       |.      |.       |.      |.      |.     |
+| 025 | Expand collapsed fields | Additional address information |.       |.      |.       |.      |.      |.     |
+| 025 | Expand collapsed fields | Special Request |.       |.      |.       |.      |.      |.     |
 
 
 
